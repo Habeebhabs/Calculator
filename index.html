@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="mixkit-plastic-bubble-click-1124.wav" id="audio"></audio>
+    <main class="wrapper">
+        <section class="input">
+            <input type="text" name="" id="input" placeholder="0" disabled>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" id="delete" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z" />
+              </svg>
+        </section>
+        <section class="output">
+            <span id="output"></span>
+        </section>
+        <section class="buttons">
+            <button class="sp1 clear">AC</button>
+            <button class="sp1" id="bracket">( )</button>
+            <button class="sp1">%</button>
+            <button class="sp2">/</button>
+            <button class="normal">7</button>
+            <button class="normal">8</button>
+            <button class="normal">9</button>
+            <button class="sp2">x</button>
+            <button class="normal">4</button>
+            <button class="normal">5</button>
+            <button class="normal">6</button>
+            <button class="sp2">-</button>
+            <button class="normal">1</button>
+            <button class="normal">2</button>
+            <button class="normal">3</button>
+            <button class="sp2">+</button>
+            <button class="normal">+/-</button>
+            <button class="normal">0</button>
+            <button class="normal">.</button>
+            <button class="sp2" id="result">=</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
